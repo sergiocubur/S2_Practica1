@@ -46,6 +46,9 @@ Para ejecutar el script, asegúrate de tener la base de datos MySQL configurada 
 ## Notas Importantes
 * Asegúrate de configurar la conexión a tu base de datos MySQL con las credenciales adecuadas.
 * Personaliza las rutas de los archivos y otros parámetros según tus necesidades.
+
+  Se recomienda poner codigo en https://colab.research.google.com/drive/1xxPSVblV0rw02b3wfrLsAXtETIjP_LjD#scrollTo=cSwUyF9EhUfO
+  
 ## Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más detalles.
 
