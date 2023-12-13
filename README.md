@@ -20,25 +20,15 @@ Este script de Python realiza un análisis de datos a partir de dos conjuntos de
 Para ejecutar el script, asegúrate de tener la base de datos MySQL configurada y luego ejecuta:
 `python Limpieza.py`
 
-## Estructura del Proyecto
-proyecto/
-|-- data/
-|   |-- global.csv
-|   |-- municipio.csv
-|-- scripts/
-|   |-- nombre_del_script.py
-|-- Result.csv
-|-- README.md
 
+# Funcionalidades del Script
 
-#Funcionalidades del Script
-
-##Análisis de Datos Remotos:
-*  Descarga un conjunto de datos remoto desde una URL.
+## Análisis de Datos Remotos:
+* Descarga un conjunto de datos remoto desde una URL.
 * Realiza un análisis exploratorio de datos y elimina registros faltantes.
 * Genera visualizaciones de datos utilizando gráficos de caja y barras.
 
-##Análisis de Datos Locales:
+## Análisis de Datos Locales:
 * Lee un conjunto de datos local desde un archivo CSV.
 * Realiza un análisis exploratorio de datos y elimina registros faltantes.
 * Realiza manipulaciones de datos, como cambiar mayúsculas y unir tablas.
@@ -48,7 +38,7 @@ proyecto/
 * Elimina registros con valores nulos o cero en la columna "codigo_departamento".
 * Exporta el resultado a un archivo CSV llamado "Result.csv".
 
-##Carga en MySQL:
+## Carga en MySQL:
 * Establece una conexión a una base de datos MySQL local.
 * Divide los datos en lotes y los inserta en la base de datos.
 * Maneja posibles errores, como claves duplicadas, y realiza reintentos.
